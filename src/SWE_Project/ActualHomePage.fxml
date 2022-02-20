@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="486.0" prefWidth="892.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/11.0.1" fx:controller="SWE_Project.ActualHomePageController">
+   <children>
+      <Label alignment="CENTER" layoutX="432.0" layoutY="35.0" text="Welcome!" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="18.0" layoutY="70.0" text="Located on the first floor of the Selig Enterprises building, " AnchorPane.leftAnchor="18.0" AnchorPane.rightAnchor="17.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="142.0" layoutY="115.0" text="Michael's Cafe is a great place to get a downhome breakfast or lunch.">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="178.0" layoutY="163.0" text="Whether you only have a few minutes before the big meeting">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="313.0" layoutY="213.0" text="or an hour long break to relax,">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="148.0" layoutY="268.0" text="stop by and fill up on delicious sandwiches, salads, soups, and more!">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="151.0" layoutY="325.0" text="Located at: 100 Spring Street NW, Suite 100, Atlanta, Georgia 30309">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="327.0" layoutY="382.0" text="Reach us at: (404) 875-3882">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

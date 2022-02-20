@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="616.0" prefWidth="894.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SWE_Project.HomePageController">
+   <children>
+      <SplitPane dividerPositions="0.18892508143322476" layoutX="115.0" layoutY="77.0" orientation="VERTICAL" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="125.0" prefWidth="892.0">
+               <children>
+                  <ButtonBar layoutX="14.0" layoutY="6.0" nodeOrientation="RIGHT_TO_LEFT" prefHeight="40.0" prefWidth="200.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                    <buttons>
+                      <Button fx:id="loginButtonLabel" mnemonicParsing="false" onAction="#handleLoginButton" text="Login">
+                           <font>
+                              <Font size="20.0" />
+                           </font></Button>
+                        <Button mnemonicParsing="false" onAction="#handleEmployeePageButton" prefHeight="44.0" prefWidth="473.0" text="Employee">
+                           <font>
+                              <Font size="20.0" />
+                           </font></Button>
+                        <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../Pictures/michaelscafelogo.png" />
+                           </image>
+                        </ImageView>
+                    </buttons>
+                  </ButtonBar>
+                  <ButtonBar layoutX="14.0" layoutY="65.0" nodeOrientation="RIGHT_TO_LEFT" prefHeight="40.0" prefWidth="200.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="65.0">
+                    <buttons>
+                        <Button mnemonicParsing="false" onAction="#handleCartPage" text="Cart">
+                           <font>
+                              <Font size="20.0" />
+                           </font></Button>
+                      <Button mnemonicParsing="false" onAction="#handleMenuButton" text="Menu">
+                           <font>
+                              <Font size="20.0" />
+                           </font></Button>
+                        <Button minWidth="0.0" mnemonicParsing="false" onAction="#handleHomePageButton" prefHeight="44.0" prefWidth="545.0" text="Home">
+                           <font>
+                              <Font size="20.0" />
+                           </font></Button>
+                    </buttons>
+                  </ButtonBar>
+               </children>
+            </AnchorPane>
+          <AnchorPane fx:id="displayArea" prefHeight="486.0" prefWidth="892.0">
+               <children>
+                  <Label alignment="CENTER" layoutX="369.0" layoutY="14.0" text="Welcome!">
+                     <font>
+                        <Font size="35.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="CENTER" layoutX="200.0" layoutY="80.0" text="Located on the first floor of the Selig Enterprises building, ">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="152.0" layoutY="125.0" text="Michael's Cafe is a great place to get a downhome breakfast or lunch.">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="188.0" layoutY="173.0" text="Whether you only have a few minutes before the big meeting">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="323.0" layoutY="223.0" text="or an hour long break to relax,">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="158.0" layoutY="278.0" text="stop by and fill up on delicious sandwiches, salads, soups, and more!">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="161.0" layoutY="335.0" text="Located at: 100 Spring Street NW, Suite 100, Atlanta, Georgia 30309">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="337.0" layoutY="392.0" text="Reach us at: (404) 875-3882">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+               </children></AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>

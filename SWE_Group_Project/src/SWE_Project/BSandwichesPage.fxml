@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="484.0" prefWidth="670.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SWE_Project.BSandwichesPageController">
+   <children>
+      <ChoiceBox fx:id="breadChoice_L" layoutY="30.0" prefWidth="150.0" AnchorPane.topAnchor="30.0" />
+      <ChoiceBox fx:id="meatChoice" layoutX="311.0" layoutY="3.0" prefWidth="150.0" AnchorPane.topAnchor="3.0" />
+      <Label layoutX="14.0" layoutY="14.0" text="Bread Choice: (Left)" AnchorPane.leftAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="195.0" text="Meat Choice:" AnchorPane.topAnchor="0.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="item1" layoutX="9.0" layoutY="68.0" text="null">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="item3" layoutX="9.0" layoutY="200.0" text="null">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="item4" layoutX="9.0" layoutY="255.0" text="null">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="item5" layoutX="9.0" layoutY="322.0" text="null">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="item6" layoutX="9.0" layoutY="379.0" text="null">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="item7" layoutX="335.0" layoutY="68.0" text="null">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="item8" layoutX="336.0" layoutY="130.0" text="null">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="item10" layoutX="335.0" layoutY="255.0" text="null">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="item11" layoutX="335.0" layoutY="322.0" text="null">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="item12" layoutX="335.0" layoutY="379.0" text="null">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="item13" layoutX="335.0" layoutY="433.0" text="null">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="item2" layoutX="9.0" layoutY="130.0" text="null">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="item9" layoutX="335.0" layoutY="200.0" text="null">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="price1" layoutX="269.0" layoutY="69.0" mnemonicParsing="false" onAction="#plainButtered_L" text="0" />
+      <Button fx:id="price2" layoutX="269.0" layoutY="131.0" mnemonicParsing="false" onAction="#toastedButtered_L" text="0" />
+      <Button fx:id="price3" layoutX="269.0" layoutY="201.0" mnemonicParsing="false" onAction="#eggCheese_L" text="0" />
+      <Button fx:id="price4" layoutX="269.0" layoutY="256.0" mnemonicParsing="false" onAction="#meatCheese_L" text="0" />
+      <Button fx:id="price5" layoutX="269.0" layoutY="323.0" mnemonicParsing="false" onAction="#meatEgg_L" text="0" />
+      <Button fx:id="price6" layoutX="269.0" layoutY="380.0" mnemonicParsing="false" onAction="#meatEggCheese" text="0" />
+      <Button fx:id="price7" layoutX="604.0" layoutY="69.0" mnemonicParsing="false" onAction="#plainButtered_R" text="0" />
+      <Button fx:id="price8" layoutX="604.0" layoutY="131.0" mnemonicParsing="false" onAction="#toastedButtered_R" text="0" />
+      <Button fx:id="price9" layoutX="604.0" layoutY="201.0" mnemonicParsing="false" onAction="#bagelToastedCreamCheese" text="0" />
+      <Button fx:id="price10" layoutX="604.0" layoutY="256.0" mnemonicParsing="false" onAction="#eggCheese_R" text="0" />
+      <Button fx:id="price11" layoutX="604.0" layoutY="323.0" mnemonicParsing="false" onAction="#meatCheese_R" text="0" />
+      <Button fx:id="price12" layoutX="604.0" layoutY="380.0" mnemonicParsing="false" onAction="#meatEgg_R" text="0" />
+      <Button fx:id="price13" layoutX="604.0" layoutY="434.0" mnemonicParsing="false" onAction="#sausageEggCheese" text="0" />
+      <Label layoutX="487.0" text="Bread Choice: (Right)">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <ChoiceBox fx:id="breadChoice_R" layoutX="515.0" layoutY="30.0" prefWidth="150.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,91 @@
+BSandwiches
+As Plain & Buttered/1.39
+As Toasted & Buttered/1.39
+With Egg & Cheese/2.79
+With Meat & Cheese (No Egg)/2.89
+With Meat & Egg (No Cheese)/3.09
+With Meat & Egg & Cheese/3.49
+As Plain & Buttered/1.89
+As Toasted & Buttered/1.89
+Bagel Toasted w. Cream Cheese/2.49
+With Egg & Cheese/3.09
+With Meat & Cheese (No Egg)/3.19
+With Meat & Egg (No Cheese)/3.49
+With Sausage & Egg & Cheese/3.69
+*
+BPlatters
+Egg Special/4.79
+Breakfast Supreme/6.99
+Pancake Platter/5.99
+Pancakes with eggs/4.79
+Pancakes only/3.99
+*
+BOmelets
+Cheese Omelet/4.79
+Ham & Cheese Omelet/5.89
+Turkey & Cheese Omelet/5.89
+Garden Omelet/4.79
+Western Omelet/6.19
+Steak & Cheese Omelet/6.19
+*
+BLight
+Grits with Butter/1.49
+With Cheese/1.89
+Grits Scrambler: egg, cheese, meat/3.79
+Hash Brown/2.89
+Hash Brown with only Cheese/3.29
+Hash Brown with Cheese & Vegetables/3.59
+Hash Brown with only Vegetables/3.29
+Scale Buster/4.29
+Egg/0.90
+Cheese/0.50
+Vegetables/0.60
+Egg Whites/0.50
+Bacon/1.29
+Turkey Bacon/1.79
+Sausage/1.39
+*
+LSalad
+Garden Salad/3.99/4.99
+Caesar Salad/3.99/5.14
+Tuna Salad/4.99/5.99
+Chicken Salad/4.99/5.99
+Grilled Chicken Salad/5.19/6.39
+Grilled Chicken Caesar Salad/5.19/6.39
+Fried Chicken Salad/6.79
+Chef Salad/6.79
+*
+LSandwiches
+Ham & Cheese Sandwich/4.89
+Turkey & Cheese Sandwich/4.89
+Roast Beef & Cheese Sandwich/5.39
+Chicken Salad Sandwich/4.89
+Tuna Salad Sandwich/4.29
+B.L.T./4.29
+Hotdog - Grilled/1.99
+Grilled Cheese/4.89
+Grilled Reuben/4.89
+Patty Melt/5.39
+Grilled Turkey & Cheese/4.89
+Grilled Ham & Cheese/4.29
+Chicken Salad Cheddar Melt/4.29
+Tuna Melt/1.99
+*
+LSpecialty
+Grilled Chicken Breast Sandwich/5.49
+Club Sandwich/5.49
+Grilled Chicken Caesar Pita Wrap/5.49
+Philly Cheese Steak/5.49
+Fried Chicken Sandwich/5.49
+Gyro Pita Wrap/5.49
+Grilled Hamburger/4.09
+Grilled Cheese Burger/4.39
+Bacon Cheese Burger/4.89
+Chicken Tenders/4.79
+(Add Fries)/6.89
+*
+LAddOns_Soups
+French Fries/2.49
+Baked Potato w. toppings/3.89
+Soup of the Day/3.29/3.79
+*

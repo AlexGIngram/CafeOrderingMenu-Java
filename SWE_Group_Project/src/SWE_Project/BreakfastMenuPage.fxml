@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="486.0" prefWidth="892.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SWE_Project.BreakfastMenuPageController">
+   <children>
+      <SplitPane dividerPositions="0.15" layoutX="52.0" layoutY="109.0" prefHeight="486.0" prefWidth="892.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <Button layoutY="53.0" mnemonicParsing="false" onAction="#handleBSandwichesPage" text="Sandwiches">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="3.0" layoutY="307.0" mnemonicParsing="false" onAction="#handleBLightPage" text="Light &amp; Simple">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="15.0" layoutY="220.0" mnemonicParsing="false" onAction="#handleBOmelets" text="Omelets">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="19.0" layoutY="132.0" mnemonicParsing="false" onAction="#handleBPlattersPage" text="Platters">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+          <AnchorPane fx:id="displayArea" minHeight="0.0" minWidth="0.0" prefHeight="484.0" prefWidth="670.0">
+               <children>
+                  <Label layoutX="134.0" layoutY="220.0" text="Select a tab on the left to get started">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>

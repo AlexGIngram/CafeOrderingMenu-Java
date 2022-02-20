@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="484.0" prefWidth="670.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SWE_Project.LSaladPageController">
+   <children>
+      <Label fx:id="item1" layoutX="90.0" layoutY="51.0" text="null">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="item2" layoutX="92.0" layoutY="87.0" text="null">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="item3" layoutX="100.0" layoutY="129.0" text="null">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="item4" layoutX="87.0" layoutY="171.0" text="null">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="item5" layoutX="62.0" layoutY="212.0" text="null">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="item6" layoutX="31.0" layoutY="258.0" text="null">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="item7" layoutX="69.0" layoutY="300.0" text="null">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="item8" layoutX="109.0" layoutY="348.0" text="null">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="price1m" layoutX="360.0" layoutY="54.0" mnemonicParsing="false" onAction="#GardenS_M" text="0" />
+      <Button fx:id="price2m" layoutX="360.0" layoutY="90.0" mnemonicParsing="false" onAction="#CaesarS_M" text="0" />
+      <Button fx:id="price3m" layoutX="360.0" layoutY="132.0" mnemonicParsing="false" onAction="#TunaS_M" text="0" />
+      <Button fx:id="price4m" layoutX="360.0" layoutY="174.0" mnemonicParsing="false" onAction="#ChickenS_M" text="0" />
+      <Button fx:id="price5m" layoutX="360.0" layoutY="215.0" mnemonicParsing="false" onAction="#GrilledChicS_M" text="0" />
+      <Button fx:id="price6m" layoutX="360.0" layoutY="261.0" mnemonicParsing="false" onAction="#GrilledChicCaesarS_M" text="0" />
+      <Button fx:id="price1l" layoutX="516.0" layoutY="54.0" mnemonicParsing="false" onAction="#GardenS_L" text="0" />
+      <Button fx:id="price2l" layoutX="516.0" layoutY="90.0" mnemonicParsing="false" onAction="#CaesarS_L" text="0" />
+      <Button fx:id="price3l" layoutX="516.0" layoutY="132.0" mnemonicParsing="false" onAction="#TunaS_L" text="0" />
+      <Button fx:id="price4l" layoutX="516.0" layoutY="174.0" mnemonicParsing="false" onAction="#ChickenS_L" text="0" />
+      <Button fx:id="price5l" layoutX="516.0" layoutY="215.0" mnemonicParsing="false" onAction="#GrilledChicS_L" text="0" />
+      <Button fx:id="price6l" layoutX="516.0" layoutY="261.0" mnemonicParsing="false" onAction="#GrilledChicCaesarS_L" text="0" />
+      <Button fx:id="price7l" layoutX="516.0" layoutY="303.0" mnemonicParsing="false" onAction="#FriedChicS_L" text="0" />
+      <Button fx:id="price8l" layoutX="516.0" layoutY="351.0" mnemonicParsing="false" onAction="#ChefS_L" text="0" />
+      <Label layoutX="360.0" layoutY="21.0" text="Medium" />
+      <Label layoutX="525.0" layoutY="21.0" text="Large" />
+   </children>
+</AnchorPane>

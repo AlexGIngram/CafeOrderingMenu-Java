@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="484.0" prefWidth="670.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="SWE_Project.LAddOns_SoupsPageController">
+   <children>
+      <Label fx:id="item1" layoutX="98.0" layoutY="92.0" text="null">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="item2" layoutX="38.0" layoutY="227.0" text="null">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="item3" layoutX="80.0" layoutY="365.0" text="null">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="price1" layoutX="347.0" layoutY="85.0" mnemonicParsing="false" onAction="#frenchFries" text="0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="price2" layoutX="347.0" layoutY="220.0" mnemonicParsing="false" onAction="#bakedPotato" text="0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="price3m" layoutX="347.0" layoutY="358.0" mnemonicParsing="false" onAction="#soupDay_M" text="0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Button fx:id="price3l" layoutX="495.0" layoutY="358.0" mnemonicParsing="false" onAction="#soupDay_L" text="0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Button>
+      <Label layoutX="363.0" layoutY="327.0" text="Medium" />
+      <Label layoutX="518.0" layoutY="327.0" text="Large" />
+   </children>
+</AnchorPane>
